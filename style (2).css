@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*h1 {
+    font-weight: bold;
+    text-align: center;
+    font-style: bold ;
+    text-transform:uppercase;
+    text-decoration:
+    letter
+    letter-spacing: 1ex;
+    word-wrap:;
+    word-spacing: ;
+
+}
+*/
+.logo{
+  width:60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width:23%;
+  border:3px  solid black;
+  border-radius:150px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:sticky;
+  top:0;
+  cursor:pointer;
+  
+}
+.nav-list{
+
+  width: 80%;
+ /* background-color: black;*/
+  display: flex;
+  align-items: center;
+}
+.nav-list li {
+list-style: none;
+padding: 26px 30px;
+}
+
+.nav-list li a:hover{ 
+ color: grey;
+} 
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+}
+
+.rightnav{
+ /*background-color: blueviolet;*/
+  width:40%;
+  text-align: right;
+  padding: 0 23px;
+}
+#search
+{
+padding: 5px;
+font-size: 17 px;
+border:2px solid grey;
+border-radius: 9px;
+}
+
+.background{
+  background: rgba(0,0,0,0.7) url('bgimg.jpg');
+  background-blend-mode: darken;
+}
+.box-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+  height: 80%;
+}
+.fh {
+  height: 150vh;
+
+}
+.fh {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sh{
+  width: 30%;
+  text-align: center;
+
+}
+.sh img{
+  width: 70%;
+  border: 4px solid black;
+  display:block;  
+  border-radius: 150px;
+  margin: auto;
+}
+.text-big{
+  margin-top: -500px;
+  text-align: center;
+ font-size: 50px;
+}
+.text-small{
+  font-size: 25px;
+  
+  
+}
+
+.buttons{
+  text-align: center;
+}
+.btn{
+  padding :8px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+  background: none;
+  cursor: pointer;
+}
+.btn-sm{
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+/*body { 
+        background-image: linear-gradient(to right,#C33764,#1D2671);
+      }
